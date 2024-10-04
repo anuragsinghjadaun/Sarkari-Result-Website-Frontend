@@ -1,0 +1,96 @@
+.header{
+    margin: 0px 12% 0% 12%;
+    padding:0px 10px;
+    background-color:#ab183d;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo{
+    display:flex;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items: center;
+    color:white;
+    font-weight: 800;
+    font-size: 30px
+}
+
+.options{
+    margin: 0px 12% 2% 12%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.option{
+    color:white;
+    padding:1%;
+    width:10.4%;
+    background-color: black;
+    text-align:center
+}
+.imp_detail{
+    font-size:15px;
+    text-align: center;
+}
+.imp_detail h5{
+    color:red
+}
+.special_boxes {
+    margin: 3px 12% 3% 12%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    gap: 5px; /* Adjust space between boxes */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+    font-size: 24px;
+    height:70px
+}
+.range{
+    margin: 10px 12%;
+}
+.body{
+    margin: 0px 12%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.boss{
+    border: 2px solid #ab183d;
+    width:30%;
+}
+
+.box_heading{
+    color:white;
+    background-color: #ab183d;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin:0px;
+}
+.box-items{
+    margin:10px
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 10px;
+}
+.footer p{
+    color: #494848bd;
+    font-size: 13px;
+}
+.footer_more{
+    display:flex;
+    justify-content: space-between;
+    gap:50px
+}
